@@ -1,4 +1,7 @@
 # Instagram PHP Scraper (proxified)
+## Getting broken Instagram images when viewed in browser? (Apr 2021)
+Take a look at https://github.com/postaddictme/instagram-php-scraper/issues/903#issuecomment-827537360
+---
 
 **This repo contains RapidApi proxified version of Instagram scraper https://github.com/postaddictme/instagram-php-scraper due to difficulties with bypassing Instagram firewalls from regular data center ip ranges.** 
 
