@@ -36,7 +36,9 @@ Proxified methods:
 
 ## Code Example
 ```php
-$instagram = \InstagramScraper\Instagram();
+require_once 'vendor/autoload.php';
+
+$instagram = new \InstagramScraper\Instagram();
 $instagram->setRapidApiKey('YOUR-RAPID-API-KEY');
 $account = $instagram->getAccountById(3);
 echo $account->getUsername();
